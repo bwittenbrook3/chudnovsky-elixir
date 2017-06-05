@@ -1,19 +1,14 @@
-# PiN
+# chudnovsky-elixir
 
-**TODO: Add description**
+A simple command line application to produce the first N digits of pie based on a user specified value. Utilizes a combination of the Chudnovsky Formula and Newton-Raphson convergence. Leverages the `decimal` elixir library for arbitrary precision decimal arithmetic in elixir.
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `pi_n` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [{:pi_n, "~> 0.1.0"}]
-end
 ```
+mix deps.install
+mix escript.build
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/pi_n](https://hexdocs.pm/pi_n).
+./pi
 
+How many digits of pi do you want to see? 400
+3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679821480865132823066470938446095505822317253594081284811174502841027019385211055596446229489549303819644288109756659334461284756482337867831652712019091456485669234603486104543266482133936072602491412737245870066063155881748815209209628292540917153643678925903600113305305488204665213841469519415116094
+```
